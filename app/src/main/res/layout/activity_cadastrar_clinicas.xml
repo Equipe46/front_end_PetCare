@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastrarClinicasActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_cadastre_sua_clinica_tela_cadastrar_clininas"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_text_razao_social"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/razao_social_tela_cadastar_clinicas"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/edit_text_cnpj"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/cnpj_tela_cadastar_clinicas"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_text_nome_clinica"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/nome_da_clinica_tela_cadastar_clinicas"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_especialidade"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/especialidade_tela_cadastrar_clinicas"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_endereco"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/endereco_tela_cadastar_clinicas"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/e_mail_tela_login"
+        android:layout_marginTop="30dp"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_text_senha"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/senha_tela_cadastar_clinicas"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:backgroundTint="@color/botoes_homepage"
+        android:text="@string/cadastrar_clinica_tela_cadastrar_clinica"
+
+        />
+
+
+</LinearLayout>

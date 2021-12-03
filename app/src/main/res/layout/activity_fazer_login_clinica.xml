@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FazerLoginClinicaActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="24dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fazer_login_clinica_tela_login_clinica"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_cnpj"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/cnpj_tela_de_login_clinica"
+        android:layout_marginTop="30dp"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_text_senha"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/senha_tela_login_clinica"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:backgroundTint="@color/botoes_homepage"
+        android:text="@string/botao_login_tela_clinica"/>
+
+</LinearLayout>

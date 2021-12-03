@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastrarMectivity"
+    android:orientation="vertical"
+    android:layout_marginTop="24dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastre_se_tela_cadastrar_me"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_nome_completo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/nome_completo_tela_cadastrar_me"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_apelido"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/apelido_tela_cadastrar_me"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/e_mail_tela_cadastrar_me"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edit_text_telefone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/telefone_tela_cadastrar_me"
+        android:layout_marginTop="20dp"
+        android:importantForAutofill="no"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_text_senha"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/senha_tela_cadastrar_me"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:backgroundTint="@color/botoes_homepage"
+        android:text="@string/button_tela_cadastrar_me"
+
+        />
+
+
+</LinearLayout>

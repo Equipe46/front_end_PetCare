@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logopetcare"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        android:contentDescription="@string/aprendendo" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frase_abaixo_logo_homepage"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_dark"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_homepage_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="50dp"
+                app:backgroundTint="@color/botoes_homepage"
+                android:text="@string/button_fazer_login"
+
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_homepage_cadastrar_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="130dp"
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@color/botoes_homepage"
+                android:text="@string/button_cadastrar_me"
+
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_homepage_eu_sou_uma_clinica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@color/botoes_homepage"
+                android:text="@string/button_eu_sou_uma_cl_nica"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_homepage_cadastrar_clinicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="108dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@color/botoes_homepage"
+                android:text="@string/button_cadastrar_clinicas"
+                />
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
